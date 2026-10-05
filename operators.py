@@ -60,6 +60,33 @@ def start():
     x = 10
     x **=3
     print(x)
+
+    print("---Bitwise Operators---")
+    p = 5 #101
+    q = 3 #011
+    print(p & q)
+    print(p | q)
+    print(p ^ q)
+    print(~p)
+    print(-6 << 1)
+    print(-6 >> 1)
+    p >>= 5
+    print(p)
+    # 010
+    # 011
+    # ---
+    # 001
+    # 1 -> 001, 2 -> 010, 3 -> 011, 4 -> 100, 5 -> 101, 6 -> 110, 7 -> 111
+    # 8 -> 1000, 9 -> 1001, 10 -> 1010, 11 -> 1011, 12 -> 1100
+    # 5  0000 0101
+    # ~5 (-6)1111 1010
+    # -6 << 1 -> 1111 0100
+    # -6 >> 1 -> 0111 1101
+    print("---Membership Operators---")
+    language = ["python", "ruby", "groovy", "java"]
+    print('python' not in language)
+    print("python" in language)
+
 def end():
     print("---End of Program---")
 
