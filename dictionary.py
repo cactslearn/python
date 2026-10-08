@@ -13,12 +13,13 @@ def main():
     # 2. Accessing and Modifying
     print(f"User name: {user['name']}")
     user["age"] = 29          # Update existing value
-    user["city"] = "Pune"     # Add new key-value pair
+    user["country"] = ""     # Add new key-value pair
     print(f"Updated dictionary: {user}")
 
     # 3. Safe Access
     # Using .get() prevents KeyError if the key doesn't exist
-    print(f"Department: {user.get('department', 'Not assigned')}")
+    # print(f"Department: {user.get('department', 'Not assigned')}")
+    # print(f"Department: {user['department']}")
 
     # 4. Removing items
     removed_value = user.pop("role")
@@ -27,7 +28,7 @@ def main():
     # 5. Iteration
     print("\nIterating through keys and values:")
     for key, value in user.items():
-        print(f"{key.capitalize()}: {value}")
+        print(f"{key.upper()}: {value}")
 
 if __name__ == "__main__":
     main()

@@ -14,12 +14,12 @@ def main():
     # 3. Numeric to String
     age = 25
     str_age = str(age)
-    print(f"Numeric: {age} -> String: '{str_age}'")
+    print(f"Numeric: {age}(type : {type(age)}) -> String: {str_age}(type : {type(str_age)})")
 
     # 4. String to Numeric
-    num_str = "123"
-    converted_num = int(num_str)
-    print(f"String: '{num_str}' -> Integer: {converted_num + 7}")
+    num_str = "123.5"
+    converted_num = float(num_str)
+    print(f"String: {num_str} ({type(num_str)}) -> Integer: {converted_num}({type(converted_num)})")
 
     # 5. List to Tuple and Set
     my_list = [1, 2, 2, 3]

@@ -18,12 +18,12 @@ def main():
 
     # 4. Set Mathematical Operations
     set_a = {1, 2, 3}
-    set_b = {3, 4, 5}
+    set_b = {3, 2, 5}
     
     print(f"\nSet A: {set_a}, Set B: {set_b}")
     print(f"Union (A | B): {set_a | set_b}")           # Combine all
     print(f"Intersection (A & B): {set_a & set_b}")    # Only common elements
-    print(f"Difference (A - B): {set_b - set_a}")      # Items in A but not in B
+    print(f"Difference (A - B): {set_a - set_b}")      # Items in A but not in B
 
     # 5. Clearing
     my_set.clear()

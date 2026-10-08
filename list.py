@@ -7,16 +7,16 @@ def main():
 
     # 2. Appending and Inserting
     fruits.append("orange")    # Adds to the end
-    fruits.insert(1, "mango")  # Inserts at index 1
+    fruits.insert(1, "`mango`")  # Inserts at index 1
     print(f"After modifications: {fruits}")
 
     # 3. Accessing and Slicing
-    print(f"First element: {fruits[0]}")
-    print(f"Slice (index 1 to 3): {fruits[1:4]}")
+    print(f"Second element: {fruits[1]}")
+    print(f"Slice (index 2 to 3): {fruits[2:4]}")
 
     # 4. Removing items
     fruits.remove("banana")  # Removes by value
-    popped = fruits.pop(0)    # Removes by index and returns the item
+    popped = fruits.pop(2)    # Removes by index and returns the item
     print(f"Removed '{popped}', current list: {fruits}")
 
     # 5. Iteration

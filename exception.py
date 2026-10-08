@@ -1,4 +1,5 @@
 def main():
+    """Simple Exception Program"""
     print("--- Exception Handling Demonstration ---\n")
     
     # We will try to perform division based on user input
@@ -18,7 +19,11 @@ def main():
     except ZeroDivisionError:
         # Triggered if denominator is 0
         print("Error: You cannot divide by zero.")
-        
+
+    except:
+        # Global Exception Handletr
+        print("I am global handler")
+                
     else:
         # Runs only if NO exceptions were raised
         print(f"Success! The result is: {result}")
@@ -29,3 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print(main.__doc__)

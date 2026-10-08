@@ -25,7 +25,7 @@ def main():
 
     # 5. Common Tuple Methods
     # Tuples only have two built-in methods: count() and index()
-    my_tuple = (1, 2, 2, 3, 4)
+    my_tuple = (1, 2, 2, 2, 3, 4)
     print(f"Count of '2' in tuple: {my_tuple.count(2)}")
     print(f"Index of '3': {my_tuple.index(3)}")
 
