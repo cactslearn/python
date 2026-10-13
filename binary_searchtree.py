@@ -52,9 +52,10 @@ def main():
 
     print("Inorder traversal:")
     inorder(root)
+    print()
 
     # Search
-    key = 30
+    key = 80
     result = search(root, key, 0)
 
     if result:
