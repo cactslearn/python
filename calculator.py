@@ -6,4 +6,7 @@ def add(a, b):
 def multiply(a, b):
     return a * b
 
-# square = lambda x: x*x
+def square_normal(x):
+    return x * x
+
+square = lambda x: x*x
