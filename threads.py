@@ -7,7 +7,7 @@ def download_file(file_name):
     print("Downloading", file_name)
 
     # Simulate waiting for a network response
-    time.sleep(2)
+    time.sleep(10)
 
     print(file_name, "download completed")
 

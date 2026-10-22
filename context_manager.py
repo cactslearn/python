@@ -1,8 +1,8 @@
 # Context Manager Example
 
 # Open a file using a context manager
-with open("example.txt", "w") as file:
-    file.write("Hello, Python!")
+with open("example.txt", "a") as file:
+    file.write("Hello, Python Lets Append!")
 
 print("File has been written successfully.")
 
